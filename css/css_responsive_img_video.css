@@ -1,0 +1,12 @@
+img, video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Styles for images and videos on mobile screens */
+  @media screen and (max-width: 768px) {
+    img, video {
+      max-width: 100%;
+      height: auto;
+    }
+  }

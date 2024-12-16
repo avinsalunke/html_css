@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name = "author" content="avinashnsalunke@gmail.com">
+    <meta name = "description" content="This page describe about Responsive page and media query">
+    <meta name = "keywords" content= "CSS Media Query, Page responsive, css background property, html keywords, html form , div, section">
+    <link rel="stylesheet" href="./css/css_responsive_img_video.css"/>
+</head>
+<body>
+    <h1>CSS Table and Styling</h1>
+    <a href="./index.html"> Main Page </a>
+    <hr>
+
+    <!-- Example using CSS max-width property -->
+    <h2>Responsive Image with CSS max-width</h2>
+    <img src="https://images.unsplash.com/photo-1610733376381-010db4468779?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG9wZXxlbnwwfHwwfHx8MA%3D%3D" alt="Example using CSS max-width property" style="max-width: 100%;">
+
+    <h2>Responsive Video with CSS max-width</h2>
+    <video src="./video/asian_paint_share.mp4" controls style="max-width: 100%;"></video>
+
+    <!-- Example using picture element with srcset attribute -->
+    <h2>Responsive Image with picture element and srcset attribute</h2>
+    <picture>
+        <source srcset="./video/asian_paint_share.png" media="(min-width: 1200px)"> <!-- here we can have large small images with that diemensiona and size-->
+        <source srcset="./video/asian_paint_share.png" media="(min-width: 768px)">
+        <img src="./video/asian_paint_share.png" alt="Example using picture element with srcset attribute">
+    </picture>
+
+    <h2>Responsive Video with picture element and srcset attribute</h2>
+    <picture>
+        <source srcset="./video/asian_paint_share.mp4" media="(min-width: 1200px)">
+        <source srcset="./video/asian_paint_share.mp4" media="(min-width: 768px)">
+        <video src="./video/asian_paint_share.mp4" controls></video>
+    </picture>
+
+</body>
+</html>
