@@ -1,0 +1,30 @@
+
+.outer_box{
+    border :2px solid black;
+    background-color: #f1f1f1;
+    /*opacity: 0.5;*/
+}
+.box {
+    width: 200px;
+    height: 120px;
+    padding: 20px;
+    border: 1px solid rgb(205, 54, 54);
+    margin: 20px;
+    background-color: beige;
+    /*opacity: 1;*/
+  }
+  .box_para{
+    /*Font text property*/
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .box_property{
+    background-color: blueviolet;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;;
+  }
