@@ -1,0 +1,45 @@
+form {
+    width: 50%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"], input[type="email"], input[type="submit"] {
+    padding: 10px;
+    border: 1px solid rgb(238, 135, 135);
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #113d12;
+  }
+
+
+  ul {    
+    width: 50%;
+    list-style-type: none; /* remove default bullets */
+    padding: 0; /* remove default padding */
+    margin: 0; /* remove default margin */
+  }
+  
+  li {
+    padding: 8px; /* add padding to each list item */
+    background-color: #c27bf8; /* add background color */
+    border-bottom: 1px solid rgb(105, 34, 121); /* add bottom border */
+  }
+  
+  li:last-child {
+    border-bottom: none; /* remove bottom border from last item */
+  }
+  
