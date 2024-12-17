@@ -1,0 +1,73 @@
+.container {
+    width: 100%; /* Set container width to 100% */
+    max-width: 1200px; /* Set maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding to the container */
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    font-size: 24px;   
+    text-align: center; 
+  }
+  
+  p {
+    font-size: 16px;
+    text-align: center; 
+  }
+  
+  img {
+    width: 100%; /* Set image width to 100% of its container */
+  }
+  
+  video {
+    width: 100%; /* Set video width to 100% of its container */
+    max-height: 500px; /* Set maximum height for the video */
+  }
+  
+  /* Media queries for different devices */
+  @media screen and (max-width: 767px) {
+    /* Styles for small devices (e.g., smartphones) */
+    h1 {
+      font-size: 20px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  
+    video {
+      max-height: 300px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for medium devices (e.g., tablets) */
+    h1 {
+      font-size: 28px;
+    }
+  
+    p {
+      font-size: 18px;
+    }
+  
+    video {
+      max-height: 400px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    /* Styles for large devices (e.g., desktops) */
+    h1 {
+      font-size: 36px;
+    }
+  
+    p {
+      font-size: 20px;
+    }
+  
+    video {
+      max-height: 500px;
+    }
+  }
